@@ -30,6 +30,22 @@ class Gato extends Animal{
 		
 }
 
+class Passaro extends Animal{
+	
+	public function falar(){
+		
+		return "Canta";
+		
+	}
+	
+	public function mover(){
+		
+		return "Voa e ".parent::mover();
+		
+	}
+		
+}
+
 $pludo = new Cachorro();
 
 echo $pludo->falar()."<br>";
@@ -41,4 +57,11 @@ $tom = new Gato();
 echo $tom->falar()."<br>";
 
 echo $tom->mover();
+
+echo"<br> ----------------------------<br>";
+$ave = new Passaro();
+
+echo $ave->falar()."<br>";
+
+echo $ave->mover();
 ?>
