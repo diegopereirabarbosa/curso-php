@@ -22,11 +22,11 @@ require_once("config.php");
 
 
 //insere um novo usuario
-//$aluno = new Usuario();
-//$aluno->setDeslogin("Prado");
-//$aluno->setDessenha("1234");
-//$aluno->insert();
-//echo $aluno;
+$aluno = new Usuario();
+$aluno->setDeslogin("Said");
+$aluno->setDessenha("1234");
+$aluno->insert();
+echo $aluno;
 
 //Update atualiza usuario
 //$usuario = new Usuario();
@@ -35,10 +35,10 @@ require_once("config.php");
 //echo $usuario;
 
 //Deletar registro
-$usuario = new Usuario();
-$usuario->loadById(1);
-$usuario->delete();
-echo $usuario;
+//$usuario = new Usuario();
+//$usuario->loadById(1);
+//$usuario->delete();
+//echo $usuario;
 ?>
 
 
