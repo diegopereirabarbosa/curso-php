@@ -1,0 +1,7 @@
+{
+    "name": "diegobr/composer",
+    "description": "Alula de composer php",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {}
+}
